@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluestock Community</title>
+    <link rel="stylesheet" href="com8s.css">
+</head>
+<body>
+    <header>
+        <img src="site_logo.png" alt="Bluestock Logo">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">IPO</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Brokers</a></li>
+                <li><a href="#">Live News</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="#" class="sign-up">Sign Up Now</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="card">
+            <div class="hero-text">
+                <h1>The Most Active<br>Community of<br>Traders & Investors</h1>
+                <p>Join now to interact with thousands of active traders and investors to learn and share your knowledge on our buzzing forum.</p>
+                <button>Join Our Community</button>
+            </div>
+            <img src="hero.png" alt="Hero Image">
+        </div>
+    </section>
+
+    <section class="interaction">
+        <div class="card">
+            <div class="text-section">
+                <h2>Be a part of the trading & investments club</h2>
+                <p>&#10003; Rich environment for knowledge exchange.</p>
+                <p>&#10003; Stay connected about the latest stock market updates.</p>
+                <p>&#10003; Access exclusive community events, webinars, and meet-ups.</p>
+            </div>
+            <img src="features.png" alt="Features Image">
+        </div>
+    </section>
+    <div style="text-align: center;">
+    <h2>Team Bluestock Cares</h2>
+    <span>Interact with our members to engage,<br> clarify, and contribute</span>
+    </div>
+    
+    <section class="interaction">
+        <div class="card">
+            <div class="text-section">
+                
+                <h2>Interact With Our Experts</h2>
+                <ul>
+                    <li>&#9675; Get valid suggestions</li>
+                    <li>&#9675; Raise issues or concerns</li>
+                    <li>&#9675; Ask your questions</li>
+                </ul>
+            </div>
+            <img src="expert.png" alt="Expert Image">
+        </div>
+    </section>
+    <script>
+        // Toggle the navigation menu on hamburger click
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-list').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
